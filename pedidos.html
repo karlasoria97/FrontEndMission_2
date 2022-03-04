@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CakeStellar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+        integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+   <body>
+        <div class="first">
+            <div class="container"><h1>CakeStellar</h1>
+                <ul class="social">
+                    <li> <a href="facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li> <a href="google.com"><i class="fab fa-google-plus-g"></i></a>
+                    </li>
+                    <li> <a href="twitter.com"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li> <a href="pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li> <a href="instragram.com"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <nav class="navbar navbar-expand-sm">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                                <a class="nav-link" href="pedidos.html">Pedidos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container" id="ped">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-12 bg-transparent">
+                        <form >
+                            <center>
+                                <label for="name">Nombre completo:</label><br>
+                                <input type="text" id="fname" name="fname" value=""><br>
+                                <label for="direc">Dirección:</label><br>
+                                <input type="text" id="lname" name="lname" value=""><br>
+                                <label for="phone">Teléfono:</label><br>
+                                <input type="tel" id="lname" name="lname" value=""><br>
+                                <label for="desc">Descripción del pastel:</label><br>
+                                <div class="container">
+                                    <div class="row" >
+                                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 bg-transparent">
+                                            <fieldset id="pastel">
+                                                <h2>Pasteles</h2>
+                                                <input type="checkbox">
+                                                    <label>MoonCake (Bizcocho)</label><br>
+                                                <input type="checkbox">
+                                                    <label>PiedraRoja (Cheescake)</label><br>
+                                                    <input type="checkbox">
+                                                    <label>Anillo de Saturno (Tres leches)</label><br>
+                                                <input type="checkbox">
+                                                    <label>Charco de Urano (Devil's Cake)</label><br>
+                                                    <input type="checkbox">
+                                                    <label>Caja de Pandora (Tiramisu)</label><br>
+                                                <input type="checkbox">
+                                                    <label>Invierno en Pluto(Carlota)</label><br>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 bg-transparent">
+                                            <fieldset id="sabores">
+                                                <h2>Sabores</h2>
+                                                <input type="checkbox">
+                                                    <label>Baba de alien(Chocolate) </label><br>
+                                                <input type="checkbox">
+                                                    <label>Lava de Mercurio(Fresa) </label><br>
+                                                    <input type="checkbox">
+                                                    <label>Vía Lactea (Vainilla) </label><br>
+                                                <input type="checkbox">
+                                                    <label>Erupción en Titan(Cereza)</label><br>
+                                                <input type="checkbox">
+                                                    <label>Crater Lunar(Nuez)</label><br>
+                                                <input type="checkbox">
+                                                    <label>Rayo de sol(Limón) </label><br>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-4 col-xl-4 bg-transparent">
+                                            <fieldset id="adornos">
+                                                <h2>Adornos</h2>
+                                                <input type="checkbox">
+                                                    <label>Lengua Galactica(Adornos de Azúcar) </label><br>
+                                                <input type="checkbox">
+                                                    <label>Lluvia de estrellas(Chispas de colores) </label><br>
+                                                    <input type="checkbox">
+                                                    <label>Lluvia de estrellas(Chispas de colores) </label><br>
+                                                <input type="checkbox">
+                                                    <label>Piedras de Plutón(Chocolates) </label><br>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <fieldset id="entrega">
+                                    <input type="radio">
+                                    <label>Llevar a domicilio</label>
+                                    <input type="radio">
+                                    <label>Recoger en tienda</label>
+
+
+                                </fieldset>
+                                <label>Notas:</label>
+                                <input type="text">
+                                <br>
+                                <input type="submit" value="Hacer pedidos">
+
+                            </center>
+                            
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>        
+        <footer>
+            <img style="width:5%;"src="images/logo.png">
+        </footer>
+   </body>
+ </html>
